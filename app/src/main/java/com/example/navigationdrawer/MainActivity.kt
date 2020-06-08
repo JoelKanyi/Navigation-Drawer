@@ -37,6 +37,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return super.onOptionsItemSelected(item)
     }
 
+    override fun onBackPressed() {
+
+        if (drawer.isDrawerOpen(GravityCompat.START)){
+            drawer.closeDrawer(GravityCompat.START)
+        }
+        else {
+            super.onBackPressed()
+        }
+    }
+
 
     fun displaySelectedNavMenu(itemmId: Int){
         when(itemmId){
