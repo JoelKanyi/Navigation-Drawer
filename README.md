@@ -1,5 +1,9 @@
 # Navigation Drawer
 
+## Demo
+----------------
+<img src="https://user-images.githubusercontent.com/50293753/84122030-7d988d80-aa40-11ea-8e94-c22ca7d255c9.gif" height="600" width="300"/>
+
 ## Setup Requirements
 ----------------
 
